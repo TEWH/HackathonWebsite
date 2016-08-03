@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <meta charset="UTF-8">
+    <title>
+     </title>
+    <script>
+        $(document).ready(function(){
+            var width = $(window).width()
+            var height = $(window).height()
+
+            var widthElement = $(".login-page").width()
+            var heightElement = $(".login-page").height()
+
+            $(".login-page").css("top", (height-heightElement)/2)
+            $(".login-page").css("left", (width-widthElement)/2)
+        });
+    </script>
+    <style>
+        .login-page{
+            position: absolute
+        }
+    </style>
+</head>
+<body background="http://wallpapercave.com/wp/aTJ0UW5.jpg">
+<center><font face="Georgia" size="40" color="white">Welcome to TEWH Hackathon </font></center>
+<div class="login-page">
+  <div class="form">
+      <form class="login-form" style="text-align:center">
+      <input style= "font-size:28px" type="text" placeholder="TEWH Member"/><br/>
+      <input style="font-size:28px" type="password" placeholder="password"/><br/>
+      <button style="font-size:20px;margin:auto"> login</button>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+    </form>
+  </div>
+</div>
+<body>
+
+</body>
+
+</html>
