@@ -5,8 +5,12 @@ app = Flask(__name__)
 
 @app.route("/home")
 def hello():
-    name2 = "Alina Schroeder"
-    return render_template("index.html", name=name2)
+    return render_template("index.html")
+
+@app.route("/loggedIn")
+def afterLogin():
+    return render_template("afterlogin.html")
+
 
 if __name__ == "__main__":
     app.run()
