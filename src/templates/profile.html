@@ -11,7 +11,6 @@
     background-size:cover;}
     h1{font-weight: 200;
     font-family: 'Exo', sans-serif;
-    font-size:25px;
     color:white;
     margin-top:50px;}
  .info{height: 20px;
@@ -39,7 +38,6 @@
 	font-size: 16px;
 	font-weight: 400;
 	padding: 4px;
-	margin-top: 10px;
 	width:320px}
 .save input[type=button]{
 	width: 260px;
@@ -59,24 +57,37 @@
 }
 .class{
     margin-left:400px;
-    margin-top:100px;}
-.name{display:inline;}
+    margin-top:100px;
+    font-size:20px;}
+.name{display:inline;
+        font-size:20px}
 .year{display:inline;
       margin-left:300px;
-      margin-top:100px;}
+      margin-top:100px;
+      font-size:20px}
 .major{display:inline;
-        margin-left:300px;}
+        margin-left:300px;
+        font-size:20px}
+.head{color: #003300 !important;;
+    text-align:center;
+    font-size:30px;
+    font-weight: 200;
+    font-family: 'Exo', sans-serif;}
+.same{font-size:20px}
+.click{
+    font-size:20px;
+    display:inline;
+    font-family: 'Exo', sans-serif;}
 </style>
 <body>
-<h1>Profile Page</h1>
-<h1>If you are choosing from profiles click here to go to that site:</h1>
-<a href="">Select</a>
-<h1>If you are creating a profile, fill in the information below: </h1>
+<h1 class="head">Profile Page</h1>
+<h1 class="same">If you are choosing from profiles click here to go to that site: <a class="click" href="">Select</a></h1>
+<h1 class="same">If you are creating a profile, fill in the information below: </h1>
 <h1 class="name">Name:</h1><h1 class="year">Year:</h1><h1 class="major">Major:</h1></br>
 <input type="text" name="profilename">
 <input type="text" name="year">
 <input type="text" name="major">
-<h1>Background/Expertise:</h1>
+<h1 class="same">Background/Expertise:</h1>
 <input class="info" type="text" name="expertise">
 <div class="save"><input type="button" onclick="window.location='Save'" value="Save
 "></div>
