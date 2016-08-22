@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body {
+    text-align:center;
+    background-image: url(http://static.wixstatic.com/media/99ec98fdb81945c29c25a3ad6c5606b1.jpg_srz_974_443_85_22_0.50_1.20_0.00_jpg_srz);
+    background-size:cover;
+    margin-top:50px;
+}
+
+h1 {
+    color: #003300 !important;;
+    text-align:center;
+    font-weight: 200;
+    font-family: 'Exo', sans-serif;
+    font-size:45px
+}
+
+.nextpage { 
+    font-weight: 200;
+    font-family: 'Exo', sans-serif;
+    color:white;
+    font-size:38px;
+    text-align:center
+}
+
+div {
+    text-align:center;
+    font-family:'Exo',sans-serif;
+    font-weight:200;
+    font-size:28px;
+    color:white
+}
